@@ -1,0 +1,438 @@
+// Orange theme
+.orange-theme {
+  font-family: $family-orange-basic;
+  font-size: $size-orange-body-text;
+  font-weight: $weight-orange-body-text;
+  line-height: $line-height-orange-body-text;
+  color: $light-orange-body-text;
+
+  //   typography-ligt
+  .typography-ligt {
+    background: $orange-light-shade;
+    margin-bottom: 50px;
+
+    .box-content {
+      @media (max-width: $max-xs) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .light-hero-title {
+    font-size: $size-orange-hero-title;
+    font-weight: $weight-orange-hero-title;
+    line-height: $line-height-orange-hero-title;
+    color: $light-orange-hero-title;
+
+    @media (max-width: $max-xs) {
+      font-size: $size-orange-hero-title-xs;
+    }
+  }
+
+  .light-block-title {
+    font-size: $size-orange-block-title;
+    font-weight: $weight-orange-block-title;
+    line-height: $line-height-orange-block-title;
+    color: $light-orange-block-title;
+  }
+
+  .light-subtitle {
+    font-size: $size-orange-subtitle;
+    font-weight: $weight-orange-subtitle;
+    line-height: $line-height-orange-subtitle;
+    color: $light-orange-subtitle;
+  }
+
+  .light-heading-large {
+    font-size: $size-orange-heading-large;
+    font-weight: $weight-orange-heading-large;
+    line-height: $line-height-orange-heading-large;
+    color: $light-orange-heading-large;
+  }
+
+  .light-heading {
+    font-size: $size-orange-heading;
+    font-weight: $weight-orange-heading;
+    line-height: $line-height-orange-heading;
+    color: $light-orange-heading;
+  }
+
+  .light-subheading {
+    font-size: $size-orange-subheading;
+    font-weight: $weight-orange-subheading;
+    line-height: $line-height-orange-subheading;
+    color: $light-orange-subheading;
+  }
+
+  .light-body-text {
+    font-size: $size-orange-body-text;
+    font-weight: $weight-orange-body-text;
+    line-height: $line-height-orange-body-text;
+    color: $light-orange-body-text;
+  }
+
+  .light-caption {
+    font-size: $size-orange-caption;
+    font-weight: $weight-orange-caption;
+    line-height: $line-height-orange-caption;
+    color: $light-orange-caption;
+  }
+
+  .light-small-text {
+    font-size: $size-orange-small-text;
+    font-weight: $weight-orange-small-text;
+    line-height: $line-height-orange-small-text;
+    color: $light-orange-small-text;
+  }
+
+  .light-link {
+    font-size: $size-orange-link;
+    font-weight: $weight-orange-link;
+    line-height: $line-height-orange-link;
+    color: $light-orange-link;
+    text-decoration: none;
+    margin-right: 20px;
+
+    &:hover {
+      color: $light-orange-link-hover;
+    }
+  }
+
+  .light-quote {
+    font-size: $size-orange-quote;
+    font-style: $style-orange-quote;
+    font-weight: $weight-orange-quote;
+    line-height: $line-height-orange-quote;
+    color: $light-orange-quote;
+  }
+
+  //   typography-dark
+  .typography-dark {
+    background: $orange-dark-shades;
+    padding: 50px;
+    margin-bottom: 50px;
+
+    @media (max-width: $max-xs) {
+      padding: 30px 15px;
+    }
+
+    .box-content {
+      @media (min-width: $min-sm) {
+        padding: 30px 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .dark-hero-title {
+    font-size: $size-orange-hero-title;
+    font-weight: $weight-orange-hero-title;
+    line-height: $line-height-orange-hero-title;
+    color: $dark-orange-hero-title;
+
+    @media (max-width: $max-xs) {
+      font-size: $size-orange-hero-title-xs;
+    }
+  }
+
+  .dark-block-title {
+    font-size: $size-orange-block-title;
+    font-weight: $weight-orange-block-title;
+    line-height: $line-height-orange-block-title;
+    color: $dark-orange-block-title;
+  }
+
+  .dark-subtitle {
+    font-size: $size-orange-subtitle;
+    font-weight: $weight-orange-subtitle;
+    line-height: $line-height-orange-subtitle;
+    color: $dark-orange-subtitle;
+  }
+
+  .dark-heading-large {
+    font-size: $size-orange-heading-large;
+    font-weight: $weight-orange-heading-large;
+    line-height: $line-height-orange-heading-large;
+    color: $dark-orange-heading-large;
+  }
+
+  .dark-heading {
+    font-size: $size-orange-heading;
+    font-weight: $weight-orange-heading;
+    line-height: $line-height-orange-heading;
+    color: $dark-orange-heading;
+  }
+
+  .dark-subheading {
+    font-size: $size-orange-subheading;
+    font-weight: $weight-orange-subheading;
+    line-height: $line-height-orange-subheading;
+    color: $dark-orange-subheading;
+  }
+
+  .dark-body-text {
+    font-size: $size-orange-body-text;
+    font-weight: $weight-orange-body-text;
+    line-height: $line-height-orange-body-text;
+    color: $dark-orange-body-text;
+  }
+
+  .dark-caption {
+    font-size: $size-orange-caption;
+    font-weight: $weight-orange-caption;
+    line-height: $line-height-orange-caption;
+    color: $dark-orange-caption;
+  }
+
+  .dark-small-text {
+    font-size: $size-orange-small-text;
+    font-weight: $weight-orange-small-text;
+    line-height: $line-height-orange-small-text;
+    color: $dark-orange-small-text;
+  }
+
+  .dark-link {
+    font-size: $size-orange-link;
+    font-weight: $weight-orange-link;
+    line-height: $line-height-orange-link;
+    color: $dark-orange-link;
+    text-decoration: none;
+    margin-right: 20px;
+
+    &:hover {
+      color: $dark-orange-link-hover;
+    }
+  }
+
+  .dark-quote {
+    font-size: $size-orange-quote;
+    font-style: $style-orange-quote;
+    font-weight: $weight-orange-quote;
+    line-height: $size-orange-quote;
+    color: $dark-orange-quote;
+  }
+
+  // switch
+  .switch {
+    input[type="checkbox"] {
+      background: $orange-main-brand;
+      box-shadow: inset 0 0 5px rgba($orange-dark-shades, 0.2);
+
+      &:before {
+        content: "";
+        background: $orange-light-shade;
+        box-shadow: 0 2px 5px rgba($orange-dark-shades, 0.2);
+      }
+    }
+
+    input:checked[type="checkbox"] {
+      background: $orange-main-brand;
+    }
+  }
+
+  // buttons
+  .buttons {
+    padding: 30px 15px;
+
+    .box-content {
+      margin-right: 50px;
+
+      @media (max-width: $max-xs) {
+        justify-content: center;
+        margin: 0;
+      }
+
+      .sitebar {
+        @media (max-width: $max-md) {
+          text-align: center;
+          min-width: 165px;
+        }
+      }
+
+      .main-content {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 2.1;
+    text-transform: uppercase;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px 20px 20px 20px;
+    transition: 0.3s;
+    white-space: nowrap;
+  }
+
+  //   Button size
+  .btn-sm {
+    padding: 5px 22px;
+  }
+
+  .btn-md {
+    padding: 8px 32px;
+  }
+
+  .btn-lg {
+    padding: 10px 42px;
+  }
+
+  //  Button styles light
+  .buttons-light {
+    background: $orange-light-shade;
+
+    .btn-primary {
+      color: $orange-light-shade;
+      background: $orange-main-brand;
+      border: 1px solid $orange-main-brand;
+
+      &:hover {
+        background: mix($orange-main-brand, $orange-dark-shades, 52%);
+        border: 1px solid mix($orange-main-brand, $orange-dark-shades, 52%);
+      }
+
+      &:active {
+        background: $orange-dark-shades;
+        border: 1px solid $orange-dark-shades;
+      }
+    }
+
+    .btn-primary-alt {
+      color: $orange-light-shade;
+      background: $orange-dark-shades;
+      border: 1px solid $orange-dark-shades;
+
+      &:hover {
+        background: $orange-dark-accent;
+        border: 1px solid $orange-dark-accent;
+      }
+
+      &:active {
+        background: $orange-main-brand;
+        border: 1px solid $orange-main-brand;
+      }
+    }
+
+    .btn-secondary {
+      color: $orange-dark-shades;
+      background: $orange-light-shade;
+      border: 1px solid $orange-main-brand;
+
+      &:hover {
+        background: $orange-light-shade;
+        border: 1px solid mix($orange-main-brand, $orange-dark-shades, 52%);
+      }
+
+      &:active {
+        color: $orange-light-shade;
+        background: $orange-main-brand;
+        border: 1px solid $orange-main-brand;
+      }
+    }
+
+    .btn-secondary-alt {
+      color: $orange-dark-shades;
+      background: $orange-light-shade;
+      border: 1px solid $orange-dark-shades;
+
+      &:hover {
+        color: $orange-dark-shades;
+        background: $orange-light-shade;
+        border: 1px solid mix($orange-main-brand, $orange-dark-shades, 52%);
+      }
+
+      &:active {
+        color: $orange-light-shade;
+        background: $orange-dark-shades;
+        border: 1px solid $orange-dark-shades;
+      }
+    }
+  }
+
+  // Button styles dark
+  .buttons-dark {
+    background: $orange-dark-shades;
+    padding: 50px;
+    margin-bottom: 50px;
+
+    @media (max-width: $max-xs) {
+      padding: 30px 15px;
+    }
+  }
+
+  .btn-primary {
+    color: $orange-light-shade;
+    background: $orange-main-brand;
+    border: 1px solid $orange-main-brand;
+
+    &:hover {
+      background: mix($orange-main-brand, $orange-dark-shades, 52%);
+      border: 1px solid mix($orange-main-brand, $orange-dark-shades, 52%);
+    }
+
+    &:active {
+      color: $orange-dark-shades;
+      background: $orange-light-shade;
+      border: 1px solid $orange-light-shade;
+    }
+  }
+
+  .btn-primary-alt {
+    color: $orange-dark-shades;
+    background: $orange-light-shade;
+    border: 1px solid $orange-light-shade;
+
+    &:hover {
+      color: $orange-light-shade;
+      background: mix($orange-main-brand, $orange-dark-shades, 52%);
+      border: 1px solid mix($orange-main-brand, $orange-dark-shades, 52%);
+    }
+
+    &:active {
+      color: $orange-dark-shades;
+      background: $orange-light-shade;
+      border: 1px solid $orange-light-shade;
+    }
+  }
+
+  .btn-secondary {
+    color: $orange-light-shade;
+    background: $orange-dark-shades;
+    border: 1px solid $orange-main-brand;
+
+    &:hover {
+      background: mix($orange-main-brand, $orange-dark-shades, 52%);
+      border: 1px solid mix($orange-main-brand, $orange-dark-shades, 52%);
+    }
+
+    &:active {
+      background: $orange-main-brand;
+      border: 1px solid $orange-main-brand;
+    }
+  }
+
+  .btn-secondary-alt {
+    color: $orange-light-shade;
+    background: $orange-dark-shades;
+    border: 1px solid $orange-light-shade;
+
+    &:hover {
+      background: mix($orange-main-brand, $orange-dark-shades, 52%);
+      border: 1px solid mix($orange-main-brand, $orange-dark-shades, 52%);
+    }
+
+    &:active {
+      color: $orange-dark-shades;
+      background: $orange-light-shade;
+      border: 1px solid $orange-light-shade;
+    }
+  }
+}

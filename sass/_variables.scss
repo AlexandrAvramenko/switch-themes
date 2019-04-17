@@ -1,0 +1,191 @@
+
+// Size-text
+$size-basic:                            16px;    
+          
+      
+// Colors blue-theme      
+$blue-light-shade:                      #ffffff;
+$blue-light-accent:                     #17678b;
+$blue-main-brand:                       #11a8e7;
+$blue-dark-accent:                      #062a38;
+$blue-dark-shades:                      #222222;
+      
+      
+// Colors typography      
+$light-blue-hero-title:                 $blue-dark-shades;
+$light-blue-block-title:                $blue-dark-shades;
+$light-blue-subtitle:                   mix($blue-dark-shades, $blue-light-shade, 49%);
+$light-blue-heading-large:              $blue-main-brand;
+$light-blue-heading:                    $blue-dark-shades;
+$light-blue-subheading:                 $blue-dark-shades;
+$light-blue-body-text:                  mix($blue-dark-shades, $blue-light-shade, 81%);
+$light-blue-caption:                    mix($blue-dark-shades, $blue-light-shade, 49%);
+$light-blue-small-text:                 mix($blue-dark-shades, $blue-light-shade, 49%);
+$light-blue-link:                       $blue-main-brand;
+$light-blue-quote:                      $blue-main-brand;
+      
+      
+$dark-blue-hero-title:                  $blue-main-brand;
+$dark-blue-block-title:                 $blue-light-shade;
+$dark-blue-subtitle:                    $blue-light-shade;
+$dark-blue-heading-large:               $blue-main-brand;
+$dark-blue-heading:                     $blue-light-shade;
+$dark-blue-subheading:                  $blue-light-shade;
+$dark-blue-body-text:                   $blue-light-shade;
+$dark-blue-caption:                     $blue-main-brand;
+$dark-blue-small-text:                  $blue-light-shade;
+$dark-blue-link:                        $blue-light-shade;
+$dark-blue-quote:                       $blue-light-shade;
+      
+      
+// font-family      
+$family-blue:                          'Roboto Slab', serif;
+      
+      
+// Size-text      
+$size-blue-hero-title:                  60px;
+$size-blue-hero-title-xs:               40px;
+$size-blue-block-title:                 30px;
+$size-blue-subtitle:                    17px;
+$size-blue-heading-large:               70px;
+$size-blue-heading-large-xs:            40px;
+$size-blue-heading:                     24px;
+$size-blue-subheading:                  18px;
+$size-blue-body-text:                   15px;
+$size-blue-caption:                     12px;
+$size-blue-small-text:                  12px;
+$size-blue-link:                        12px;
+$size-blue-quote:                       24px;
+
+
+// Weight-text      
+$weight-blue-hero-title:                300;
+$weight-blue-block-title:               normal;
+$weight-blue-subtitle:                  300;
+$weight-blue-heading-large:             100;
+$weight-blue-heading:                   normal;
+$weight-blue-subheading:                300;
+$weight-blue-body-text:                 300;
+$weight-blue-caption:                   normal;
+$weight-blue-small-text:                normal;
+$weight-blue-link:                      normal;
+$weight-blue-quote:                     300;
+
+
+// line-height
+$line-height-blue-hero-title:           1.2;
+$line-height-blue-block-title:          1.33;
+$line-height-blue-subtitle:             1.53;
+$line-height-blue-heading-large:        1.14;
+$line-height-blue-heading:              1.42;
+$line-height-blue-subheading:           1.44;
+$line-height-blue-body-text:            1.47;
+$line-height-blue-caption:              1.67;
+$line-height-blue-small-text:           1.67;
+$line-height-blue-link:                 1.83;
+$line-height-blue-quote:                1.42;
+
+
+
+
+// Colors orange-theme
+$orange-light-shade:                    #ffffff;
+$orange-light-accent:                   #f7f6f2;
+$orange-main-brand:                     #ff5d28;
+$orange-dark-accent:                    #82868f;
+$orange-dark-shades:                    #4b566a;
+     
+     
+// Colors typography     
+$light-orange-hero-title:               $orange-dark-shades;
+$light-orange-block-title:              $orange-dark-shades;
+$light-orange-subtitle:                 $orange-dark-shades;
+$light-orange-heading-large:            $orange-dark-shades;
+$light-orange-heading:                  $orange-dark-shades;
+$light-orange-subheading:               $orange-dark-shades;
+$light-orange-body-text:                $orange-dark-accent;
+$light-orange-caption:                  $orange-dark-accent;
+$light-orange-small-text:               $orange-dark-accent;
+$light-orange-link:                     $orange-dark-shades;
+$light-orange-link-hover:               $orange-main-brand;
+$light-orange-link-focus:               $orange-main-brand;
+$light-orange-quote:                    mix($orange-dark-shades, $orange-light-shade, 52%);
+     
+     
+$dark-orange-hero-title:                $orange-light-shade;
+$dark-orange-block-title:               $orange-light-shade;
+$dark-orange-subtitle:                  $orange-light-shade;
+$dark-orange-heading-large:             $orange-light-shade;
+$dark-orange-heading:                   $orange-light-shade;
+$dark-orange-subheading:                $orange-light-shade;
+$dark-orange-body-text:                 $orange-light-shade;
+$dark-orange-caption:                   $orange-light-accent;
+$dark-orange-small-text:                $orange-light-accent;
+$dark-orange-link:                      $orange-light-shade;
+$dark-orange-link-hover:                $orange-main-brand;
+$dark-orange-link-focus:                $orange-main-brand;
+$dark-orange-quote:                     $orange-light-accent;
+     
+     
+// font-family     
+$family-orange-basic:                  'Vollkorn', serif;
+     
+     
+// font-style     
+$style-orange-quote:                   italic;
+     
+     
+// Size-text     
+$size-orange-hero-title:                60px;
+$size-orange-hero-title-xs:             40px;
+$size-orange-block-title:               42px;
+$size-orange-subtitle:                  20px;
+$size-orange-heading-large:             32px;
+$size-orange-heading:                   28px;
+$size-orange-subheading:                22px;
+$size-orange-body-text:                 18px;
+$size-orange-caption:                   16px;
+$size-orange-small-text:                14px;
+$size-orange-link:                      14px;
+$size-orange-quote:                     24px;
+     
+     
+// Weight-text     
+$weight-orange-hero-title:              normal;
+$weight-orange-block-title:             normal;
+$weight-orange-subtitle:                normal;
+$weight-orange-heading-large:           normal;
+$weight-orange-heading:                 normal;
+$weight-orange-subheading:              normal;
+$weight-orange-body-text:               normal;
+$weight-orange-caption:                 normal;
+$weight-orange-small-text:              normal;
+$weight-orange-link:                    600;
+$weight-orange-quote:                   600;
+
+
+// line-height
+$line-height-orange-hero-title:         1.1;
+$line-height-orange-block-title:        0.95;
+$line-height-orange-subtitle:           1.4;
+$line-height-orange-heading-large:      1.13;
+$line-height-orange-heading:            1.07;
+$line-height-orange-subheading:         1.18;
+$line-height-orange-body-text:          1.44;
+$line-height-orange-caption:            1.38;
+$line-height-orange-small-text:         1.43;
+$line-height-orange-link:               1.71;
+$line-height-orange-quote:              1.42;
+
+
+
+
+// Responsive
+$max-xs:                                575.98px;
+$max-sm:                                767.98px;
+$max-md:                                991.98px;
+$max-lg:                                1199.98px;
+$min-sm:                                576px;
+$min-xl:                                1200px;
+$min-xxl:                               1500px;
+$min-xxxl:                              1750px;

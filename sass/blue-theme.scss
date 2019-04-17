@@ -1,0 +1,440 @@
+// Blue theme
+.blue-theme {
+  font-family: $family-blue;
+  font-size: $size-blue-body-text;
+  font-weight: $weight-blue-body-text;
+  line-height: $line-height-blue-body-text;
+  color: $light-blue-body-text;
+
+  //   typography-ligt
+  .typography-ligt {
+    background: $blue-light-shade;
+    margin-bottom: 50px;
+
+    .box-content {
+      @media (max-width: $max-xs) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .light-hero-title {
+    font-size: $size-blue-hero-title;
+    font-weight: $weight-blue-hero-title;
+    line-height: $line-height-blue-hero-title;
+    color: $light-blue-hero-title;
+
+    @media (max-width: $max-xs) {
+      font-size: $size-blue-hero-title-xs;
+    }
+  }
+
+  .light-block-title {
+    font-size: $size-blue-block-title;
+    font-weight: $weight-blue-block-title;
+    line-height: $line-height-blue-block-title;
+    color: $light-blue-block-title;
+  }
+
+  .light-subtitle {
+    font-size: $size-blue-subtitle;
+    font-weight: $weight-blue-subtitle;
+    line-height: $line-height-blue-subtitle;
+    color: $light-blue-subtitle;
+  }
+
+  .light-heading-large {
+    font-size: $size-blue-heading-large-xs;
+    font-weight: $weight-blue-heading-large;
+    line-height: $line-height-blue-heading-large;
+    color: $light-blue-heading-large;
+
+    @media (max-width: $max-xs) {
+      font-size: $size-blue-heading-large-xs;
+    }
+  }
+
+  .light-heading {
+    font-size: $size-blue-heading;
+    font-weight: $weight-blue-heading;
+    line-height: $line-height-blue-heading;
+    color: $light-blue-heading;
+  }
+
+  .light-subheading {
+    font-size: $size-blue-subheading;
+    font-weight: $weight-blue-subheading;
+    line-height: $line-height-blue-subheading;
+    color: $light-blue-subheading;
+  }
+
+  .light-body-text {
+    font-size: $size-blue-body-text;
+    font-weight: $weight-blue-body-text;
+    line-height: $line-height-blue-body-text;
+    color: $light-blue-body-text;
+  }
+
+  .light-caption {
+    font-size: $size-blue-caption;
+    font-weight: $weight-blue-caption;
+    line-height: $line-height-blue-caption;
+    color: $light-blue-caption;
+  }
+
+  .light-small-text {
+    font-size: $size-blue-small-text;
+    font-weight: $weight-blue-small-text;
+    line-height: $line-height-blue-small-text;
+    color: $light-blue-small-text;
+  }
+
+  .light-link {
+    font-size: $size-blue-link;
+    font-weight: $weight-blue-link;
+    line-height: $line-height-blue-link;
+    color: $light-blue-link;
+    margin-right: 20px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .light-quote {
+    font-size: $size-blue-quote;
+    font-weight: $weight-blue-quote;
+    line-height: $line-height-blue-quote;
+    color: $light-blue-quote;
+  }
+
+  //   typography-dark
+  .typography-dark {
+    background: $blue-dark-accent;
+    padding: 50px;
+    margin-bottom: 50px;
+
+    @media (max-width: $max-xs) {
+      padding: 30px 15px;
+    }
+
+    .box-content {
+      @media (min-width: $min-sm) {
+        padding: 30px 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .dark-hero-title {
+    font-size: $size-blue-hero-title;
+    font-weight: $weight-blue-hero-title;
+    line-height: $line-height-blue-hero-title;
+    color: $dark-blue-hero-title;
+
+    @media (max-width: $max-xs) {
+      font-size: $size-blue-hero-title-xs;
+    }
+  }
+
+  .dark-block-title {
+    font-size: $size-blue-block-title;
+    font-weight: $weight-blue-block-title;
+    line-height: $line-height-blue-block-title;
+    color: $dark-blue-block-title;
+  }
+
+  .dark-subtitle {
+    font-size: $size-blue-subtitle;
+    font-weight: $weight-blue-subtitle;
+    line-height: $line-height-blue-subtitle;
+    color: $dark-blue-subtitle;
+  }
+
+  .dark-heading-large {
+    font-size: $size-blue-heading-large;
+    font-weight: $weight-blue-heading-large;
+    line-height: $line-height-blue-heading-large;
+    color: $dark-blue-heading-large;
+
+    @media (max-width: $max-xs) {
+      font-size: $size-blue-heading-large-xs;
+    }
+  }
+
+  .dark-heading {
+    font-size: $size-blue-heading;
+    font-weight: $weight-blue-heading;
+    line-height: $line-height-blue-heading;
+    color: $dark-blue-heading;
+  }
+
+  .dark-subheading {
+    font-size: $size-blue-subheading;
+    font-weight: $weight-blue-subheading;
+    line-height: $line-height-blue-subheading;
+    color: $dark-blue-subheading;
+  }
+
+  .dark-body-text {
+    font-size: $size-blue-body-text;
+    font-weight: $weight-blue-body-text;
+    line-height: $line-height-blue-body-text;
+    color: $dark-blue-body-text;
+  }
+
+  .dark-caption {
+    font-size: $size-blue-caption;
+    font-weight: $weight-blue-caption;
+    line-height: $line-height-blue-caption;
+    color: $dark-blue-caption;
+  }
+
+  .dark-small-text {
+    font-size: $size-blue-small-text;
+    font-weight: $weight-blue-small-text;
+    line-height: $line-height-blue-small-text;
+    color: $dark-blue-small-text;
+  }
+
+  .dark-link {
+    font-size: $size-blue-link;
+    font-weight: $weight-blue-link;
+    line-height: $line-height-blue-link;
+    color: $dark-blue-link;
+    margin-right: 20px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .dark-quote {
+    font-size: $size-blue-quote;
+    font-weight: $weight-blue-quote;
+    line-height: $size-blue-quote;
+    color: $dark-blue-quote;
+  }
+
+  // switch
+  .switch {
+    input[type="checkbox"] {
+      background: $blue-main-brand;
+      box-shadow: inset 0 0 5px rgba($blue-dark-accent, 0.2);
+
+      &:before {
+        content: "";
+        background: $blue-light-shade;
+        box-shadow: 0 2px 5px rgba($blue-dark-accent, 0.2);
+      }
+    }
+
+    input:checked[type="checkbox"] {
+      background: $blue-light-accent;
+    }
+  }
+
+  // buttons
+  .buttons {
+    padding: 30px 15px;
+
+    .box-content {
+      margin-right: 50px;
+
+      @media (max-width: $max-xs) {
+        justify-content: center;
+        margin: 0;
+      }
+
+      .sitebar {
+        @media (max-width: $max-md) {
+          text-align: center;
+          min-width: 165px;
+        }
+      }
+
+      .main-content {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 2.1;
+    text-transform: uppercase;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+    white-space: nowrap;
+  }
+
+  //   Button size
+  .btn-sm {
+    padding: 9px 22px;
+  }
+
+  .btn-md {
+    padding: 9px 22px;
+  }
+
+  .btn-lg {
+    padding: 15px 26px;
+  }
+
+  //  Button styles light
+  .buttons-light {
+    background: $blue-light-shade;
+
+    .btn-primary {
+      color: $blue-light-shade;
+      background: $blue-main-brand;
+      border: 1px solid $blue-main-brand;
+
+      &:hover {
+        background: $blue-light-accent;
+        border: 1px solid $blue-light-accent;
+      }
+
+      &:active {
+        background: $blue-main-brand;
+        border: 1px solid $blue-main-brand;
+      }
+    }
+
+    .btn-primary-alt {
+      color: $blue-light-shade;
+      background: $blue-light-accent;
+      border: 1px solid $blue-light-accent;
+
+      &:hover {
+        background: $blue-main-brand;
+        border: 1px solid $blue-main-brand;
+      }
+
+      &:active {
+        background: $blue-light-accent;
+        border: 1px solid $blue-light-accent;
+      }
+    }
+
+    .btn-secondary {
+      color: $blue-dark-shades;
+      background: $blue-light-shade;
+      border: 1px solid mix($blue-dark-shades, $blue-light-shade, 49%);
+
+      &:hover {
+        background: $blue-light-shade;
+        border: 1px solid mix($blue-dark-shades, $blue-light-shade, 81%);
+      }
+
+      &:active {
+        background: mix($blue-dark-shades, $blue-light-shade, 49%);
+        border: 1px solid mix($blue-dark-shades, $blue-light-shade, 49%);
+      }
+    }
+
+    .btn-secondary-alt {
+      color: $blue-dark-shades;
+      background: mix($blue-dark-shades, $blue-light-shade, 49%);
+      border: 1px solid mix($blue-dark-shades, $blue-light-shade, 49%);
+
+      &:hover {
+        background: mix($blue-dark-shades, $blue-light-shade, 81%);
+        border: 1px solid mix($blue-dark-shades, $blue-light-shade, 81%);
+      }
+
+      &:active {
+        background: $blue-light-shade;
+        border: 1px solid mix($blue-dark-shades, $blue-light-shade, 49%);
+      }
+    }
+  }
+
+  // Button styles dark
+  .buttons-dark {
+    background: $blue-dark-accent;
+    padding: 50px;
+    margin-bottom: 50px;
+
+    @media (max-width: $max-xs) {
+      padding: 30px 15px;
+    }
+  }
+
+  .btn-primary {
+    color: $blue-light-shade;
+    background: $blue-main-brand;
+    border: 1px solid $blue-main-brand;
+
+    &:hover {
+      color: $blue-dark-shades;
+      background: $blue-light-shade;
+      border: 1px solid $blue-light-shade;
+    }
+
+    &:active {
+      color: $blue-light-shade;
+      background: $blue-main-brand;
+      border: 1px solid $blue-main-brand;
+    }
+  }
+
+  .btn-primary-alt {
+    color: $blue-dark-shades;
+    background: $blue-light-shade;
+    border: 1px solid $blue-light-shade;
+
+    &:hover {
+      color: $blue-light-shade;
+      background: $blue-main-brand;
+      border: 1px solid $blue-main-brand;
+    }
+
+    &:active {
+      color: $blue-dark-shades;
+      background: $blue-light-shade;
+      border: 1px solid $blue-light-shade;
+    }
+  }
+
+  .btn-secondary {
+    color: $blue-light-shade;
+    background: $blue-dark-accent;
+    border: 1px solid $blue-light-shade;
+
+    &:hover {
+      background: $blue-dark-accent;
+      border: 1px solid $blue-main-brand;
+    }
+
+    &:active {
+      color: $blue-dark-shades;
+      background: $blue-light-shade;
+      border: 1px solid $blue-light-shade;
+    }
+  }
+
+  .btn-secondary-alt {
+    color: $blue-light-shade;
+    background: $blue-dark-accent;
+    border: 1px solid $blue-main-brand;
+
+    &:hover {
+      background: $blue-dark-accent;
+      border: 1px solid $blue-light-shade;
+    }
+
+    &:active {
+      background: $blue-main-brand;
+      border: 1px solid $blue-main-brand;
+    }
+  }
+}
